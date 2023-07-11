@@ -3,7 +3,7 @@ import { cva, VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const largeHeadingVariants = cva(
-  "text-black dark:text-white text-center lg:text-left font-extrabold leading-tight tracing-tighter",
+  "text-black dark:text-white text-center lg:text-left font-extrabold leading-tight tracking-tighter",
   {
     variants: {
       size: {
